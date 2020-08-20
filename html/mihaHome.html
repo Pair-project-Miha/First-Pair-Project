@@ -3,19 +3,61 @@
 <head>
 	 <link rel="stylesheet" href="../css/miha.css">
 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 
 	<title>Tunisian public transportation TPT</title>
 </head>
 <body>
 <script src="../javaScript/miha.js"></script>
+
+
+<!-- <video autoplay muted loop id="myVideo">
+  <source src ='' >
+</video>
+ -->
+
 <div class="nav">
-  <a class="active" href="#home"> <i class="fa fa-fw fa-home"></i> Home</a>
-  <a href="#infos"><i class="fa fa-info"></i>NFOS</a>
-  <a href="#getAround"> <i class="fa fa-subway"></i>Get around</a>
-  <a href="#blog"><i class="fa fa-comments-o"></i>blog</a>
+  <a class="active" href="#"> <i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="mihaInfos.html"><i class="fa fa-info"></i>NFOS</a>
+  <a href="mihaGetAround.html"> <i class="fa fa-subway"></i>Get around</a>
+  <a href="mihaBlog.html"><i class="fa fa-comments-o"></i>blog</a>
+</div>
+<div>
+	
+</div>
+<div id='Destination'>
+
+	<h1>Destination</h1>
+	<label for="from">from:</label>
+	<input type="text" id="myText" value="" placeholder="departure">
+	<label for="to">to:</label>
+	<input type="text" id="myText" value="" placeholder="arrival"><br><br>
+
+	<label for="date">DATE:</label>
+  	<input type="date" id="date" name="date">
+
+  	<label for="time">Timeline</label>
+  	<select name="dep" id="date"><br><br>
+    	<option value="departure at">departure at</option><br><br>
+    	<option value="arrived at">arrived at</option><br><br>
+
+    <input type="time" id="time" name="time"><br><br>
+
+<button class="button" style="vertical-align:middle"><span> Search </span></button>
+
+</div>
+<div id="subscription">
+	<h1>Subscription</h1>
+
+	
 </div>
 
 
 
-
+<div class="footer">
+<a href="#" class="fa fa-facebook">facebook</a>
+<a href="#" class="fa fa-twitter">twitter</a>
+<a href="#" class="fa fa-google">google</a>
+<a href="#" class="fa fa-instagram">instagram</a>
+</div>
 </body>
 </html>
