@@ -233,3 +233,13 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+#ticket{
+  font-family: Acme;
+  /*padding: 18px;*/
+  background-color: #E6E6E6;
+  width: 27%;
+  border: 1px solid;
+   box-shadow: 5px 10px black;
+  margin-top:25px ;
+  margin-left:25px ;
+}

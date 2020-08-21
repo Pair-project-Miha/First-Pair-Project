@@ -16,3 +16,13 @@ $(document).ready(function(){
     $(".price").show();
   });
 });
+
+$(document).ready(function(){
+ 
+    $("#ticket").hide();
+ 
+  $("#getPrineButton").click(function(){
+    $("#ticket").show();
+  });
+});
+
