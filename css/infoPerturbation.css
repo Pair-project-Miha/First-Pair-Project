@@ -1,3 +1,12 @@
+.box {
+    margin-top: 100px;
+    padding: 20px;
+    background-color:#E6E6E6 ;
+    width: 50%;
+    border: 1px solid;
+    box-shadow: 5px 10px black;
+    margin-left: 50px;
+}
 
 body {
   margin: 0;

@@ -1,8 +1,17 @@
+.box {
+    margin-top: 100px;
+    padding: 20px;
+    background-color:#E6E6E6 ;
+    width: 50%;
+    border: 1px solid;
+    box-shadow: 5px 10px black;
+    margin-left: 50px;
+}
 
 body {
-  margin: 0;
+  margin-left: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url("../photos/station.jpg");
+  /*background-image: url("../photos/station.jpg");*/
   
 }
 
@@ -252,4 +261,81 @@ body {
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+/*dropdown*/
+
+.dropbtn {
+
+  background-color: #4CAF50;
+  color: white;
+  margin-left: 100px;
+  margin-top: 50px;
+  padding: 15px;
+/*  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;*/
+  font-size: 20px;
+  text-align:center;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: center;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+ /* position: absolute;*/
+  background-color: #f9f9f9;
+  margin-left: 100px;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.FeedBack{
+  margin-left: 160px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color:#E6E6E6 ;
+  width: 50%;
+  border: 1px solid;
+  box-shadow: 5px 10px black;
+  margin-left: 50px;
+}
+.box {
+    margin-top: 100px;
+    padding: 20px;
+    background-color:#E6E6E6 ;
+    width: 50%;
+    border: 1px solid;
+    box-shadow: 5px 10px black;
+    margin-left: 50px;
+}
+
+.text{
+  
+  margin: 60px;
+}
+#w3review{
+   
 }
