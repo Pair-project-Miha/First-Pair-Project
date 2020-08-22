@@ -6,7 +6,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #E6E6E6;
+  background-image: url("https://parc88apts.com/wp-content/uploads/2015/01/grey-light-smooth-moving-waves-background-video-animation-hd-1920x1080_vjkea4zve__F0000.png");
 /*  background-image: url("../photos/station.jpg");*/
 
 }
@@ -149,7 +149,7 @@ body {
 
 
 .footer {
-   position: fixed;
+  
    left: 0;
    bottom: 0;
    width: 100%;
