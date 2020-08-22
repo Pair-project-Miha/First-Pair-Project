@@ -1,19 +1,100 @@
-<!--DOCTYPE html-->
+<!DOCTYPE html>
 <html>
 <head>
-	 <link rel="stylesheet" href="../css/miha.css">
-	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<title>Tunisian public transportation TPT</title>
+<meta charset="utf-8" />
+<!--<link href="miha.css" rel="stylesheet">-->
+<link rel="stylesheet" href="../css/info.css" type="text/css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme">
+  <title>Tunisian public transportation</title>
+
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
-<script src="../javaScript/miha.js"></script>
+<!-- Nav part -->
+
 <div class="nav">
    <a  href="mihaHome.html"> <i class="fa fa-fw fa-home"></i> Home</a>
-  <a class="active" href="#"><i class="fa fa-info"></i>NFOS</a>
-  <a href="mihaGetAround.html"> <i class="fa fa-subway"></i>Get around</a>
+  <div class="dropdown">
+    <a class="active" href="#" class="dropbtn"><i class="fa fa-info"></i>NFOS
+    </a>
+    <div class="dropdown-content">
+      <a href="infoPerturbation.html">Line disturbance information</a>
+      
+    </div>
+  </div> 
+  <div class="dropdown">
+   <a  href="mihaGetAround.html"> <i class="fa fa-subway"></i>Get around</a>
+    <div class="dropdown-content">
+      <a href="infoTram.html">Time table</a>
+      
+    </div>
+  </div> 
   <a href="mihaBlog.html"><i class="fa fa-comments-o"></i>blog</a>
 </div>
+<!-- End of the nav part -->
+<h1 class='title'>TRANSTU services</h1>
 
+
+<!-- split part  -->
+  <div >
+<div class="split left">
+
+
+  <p id='destination'>
+    The Tunisian Public Transportation <strong>(Transtu)</strong> manages public mass transit in the greater Tunis area.<br><br>
+
+        Transtu was founded in <strong> 2003 </strong> when the Société nationale des transports (SNT) and the Société du métro léger de Tunis (SMLT) were combined. <br><br>
+
+        Annually Transtu handles about <strong> 460 million </strong>passagers.<br><br>
+
+        It supervises the bus network, the light railway system and the TGM light rail link to La Marsa. <br><br>
+  </p>
+
+  </div>
+</div>
+
+<div class="split right">
+  <div class="centered">
+    <img src='../Images\Grève.jpg' >
+  </div>
+</div>
+<!-- end of the split part -->
+
+<!-- list part -->
+
+<div class="row">
+  <div class="column">
+    <div class="container">
+         <img src="../Images\7-tunis-citadis-600x330.jpg" id='imtram'alt="Tram" style="width:100%" >
+    <div class="overlay">Tramway: <br>The tram of Tunis consists of 6 lines that total 82 km.</div>
+  </div>
+</div>
+  <div class="column">
+    <div class="container">
+    <img src="../Images\bus-tunis.jpg" alt="BUS" style="width:100%">
+     <div class="overlay">Buses: <br>The bus system covers 5,836 kilometers in Tunis and surroundings serving a population of about 2 million people. 1,050 buses are covering 206 lines. </div>
+  </div>
+  </div>
+  <div class="column">
+    <div class="container">
+    <img src="../Images\Metro_Sahel01-scaled.jpg" alt="Train" style="width:100%">
+     <div class="overlay">Train: <br>TGM is a 19 km 1,435 mm light rail line in Tunisia linking the capital Tunis with La Marsa via La Goulette</div>
+  </div>
+  </div>
+</div>
+
+
+
+
+
+ <script src="/miha.js"></script>
+ <div class="footer">
+<a href="https://www.facebook.com" id = "fb" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-instagram"></a>
 
 </body>
 </html>

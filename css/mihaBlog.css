@@ -1,8 +1,17 @@
+.box {
+    margin-top: 100px;
+    padding: 20px;
+    background-color:#E6E6E6 ;
+    width: 50%;
+    border: 1px solid;
+    box-shadow: 5px 10px black;
+    margin-left: 50px;
+}
 
 body {
-  margin: 0;
+  margin-left: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url("../photos/station.jpg");
+  background-image: url("https://thumbs.dreamstime.com/b/grey-graphic-background-molecule-communication-connected-lines-dots-illustration-112192999.jpg");
   
 }
 
@@ -15,6 +24,8 @@ body {
 .nav {
   overflow: hidden;
   background-color: #333;
+  width: 100%;
+  margin-right: 100%;
 }
 
 .nav a {
@@ -122,8 +133,6 @@ body {
 }
 
 }
-
-
 .dot {
   cursor: pointer;
   height: 15px;
@@ -148,34 +157,31 @@ body {
    background-color: black;
    color: white;
    text-align: center;
-   padding: 3px;
+   padding: 5px;
 }
 .fa-facebook {
   background: #3B5998;
   color: white;
-  padding: 15px;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  padding: 20px;
 }
 
 .fa-twitter {
   background: #55ACEE;
   color: white;
-  padding: 15px;
+  padding: 20px;
 }
 
 .fa-google {
   background: #dd4b39;
   color: white;
-  padding: 15px;
+  padding: 20px;
 }
 
 
 .fa-instagram {
   background: #125688;
   color: white;
-  padding: 15px;
+  padding: 20px;
 }
 
 #dep {
@@ -183,14 +189,12 @@ body {
 }
 
 #destination{
-  font-family: Acme;
   padding: 18px;
   background-color: gray;
   width: 50% ;
   border: 1px solid;
    box-shadow: 5px 10px black;
-  margin-top:25px ;
-  margin-left:25px ;
+   margin:left;
 
 }
 #myText{
@@ -204,7 +208,23 @@ body {
 }
 
 
+/*Style the video*/
+/*#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 300%;
+  height: 100%;
+}
+.nav {
+  position: fixed;
+ 
+  width: 100%;
+  padding: 7px;
+}
 
+*/
+/*the button search style*/
 .button {
   display: inline-block;
   border-radius: 4px;
@@ -244,56 +264,102 @@ body {
   opacity: 1;
   right: 0;
 }
+/*dropdown*/
 
+.dropbtn {
 
-.fa{
-   border-radius: 50%;
-  width: 20px;
-  height: 20px;
+  background-color: #4CAF50;
+  color: white;
+  margin-left: 100px;
+  margin-top: 50px;
+  padding: 15px;
+/*  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;*/
+  font-size: 20px;
+  text-align:center;
+  border: none;
+  cursor: pointer;
 }
-
-
-
 
 .dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
+  position: center;
+  display: inline-block;
 }
 
 .dropdown-content {
-  top: 48px;    
   display: none;
-  position: absolute;
+ /* position: absolute;*/
   background-color: #f9f9f9;
-  min-width: 160px;
+  margin-left: 100px;
+  min-width: 50px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
-  float: none;
   color: black;
-  padding: 12px 16px;
+  padding: 10px 10px;
   text-decoration: none;
   display: block;
-  text-align: left;
 }
 
-.dropdown-content a:hover {
-  background-color: green;
-}
+.dropdown-content a:hover {background-color: #f1f1f1}
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.FeedBack{
+  margin-left: 160px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color:#E6E6E6 ;
+  width: 50%;
+  border: 1px solid;
+  box-shadow: 5px 10px black;
+  margin-left: 50px;
+}
+.box {
+    margin-top: 100px;
+    padding: 20px;
+    background-color:#E6E6E6 ;
+    width: 50%;
+    border: 1px solid;
+    box-shadow: 5px 10px black;
+    margin-left: 50px;
+}
+
+.text{
+  
+  margin: 60px;
+}
+#w3review{
+   
+}
+#myBtn {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#myBtn:hover {background-color: #3e8e41}
+
+#myBtn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
